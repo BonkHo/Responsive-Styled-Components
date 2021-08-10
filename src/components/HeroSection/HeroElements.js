@@ -95,6 +95,7 @@ export const HeroBtnWrapper = styled.div`
 `;
 
 export const ArrowForward = styled(MdArrowForward)`
+    color: black;
     margin-left: 8px;
     font-size: 20px;
 `;

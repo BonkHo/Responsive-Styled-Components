@@ -19,7 +19,7 @@ const SignIn = () => {
         <>
             <Container>
                 <IconWrapper>
-                    <Icon to="/">dolla</Icon>
+                    <Icon to="/">planted</Icon>
                 </IconWrapper>
                 <FormContent>
                     <Form action="#">

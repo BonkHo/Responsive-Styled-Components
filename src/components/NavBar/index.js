@@ -39,7 +39,7 @@ const NavBar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavBarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
-                            dolla
+                            planted
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
@@ -54,7 +54,7 @@ const NavBar = ({ toggle }) => {
                                     exact="true"
                                     offset={-80}
                                 >
-                                    About
+                                    Discover
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -66,7 +66,7 @@ const NavBar = ({ toggle }) => {
                                     exact="true"
                                     offset={-80}
                                 >
-                                    Discover
+                                    Share
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -90,7 +90,7 @@ const NavBar = ({ toggle }) => {
                                     exact="true"
                                     offset={-80}
                                 >
-                                    Sign Up
+                                    Professionals
                                 </NavLinks>
                             </NavItem>
                         </NavMenu>

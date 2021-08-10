@@ -1,8 +1,13 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import img from "../../images/picture.jpg";
 
 export const Container = styled.div`
-    background: #101522;
+    background-image: url(${img});
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100vh;
     color: #fff;
     display: flex;
@@ -24,7 +29,7 @@ export const Icon = styled(Link)`
     font-size: 1.5rem;
     align-items: center;
     padding: 1em;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
     font-weight: bold;
 `;
 export const FormContent = styled.div`
@@ -32,11 +37,12 @@ export const FormContent = styled.div`
     width: 22vw;
     place-self: center;
     place-content: center;
-    padding: 1.5em;
-    background: lightgreen;
-    border-radius: 5px;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.5);
     text-align: center;
-    border: 10px solid green;
+    color: white;
 `;
 export const Form = styled.form`
     display: inline-block;
@@ -45,20 +51,18 @@ export const Form = styled.form`
     text-align: center;
 `;
 export const FormH1 = styled.h1`
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: 1.5rem;
     display: flex;
 `;
 
 export const FormInputWrapper = styled.div`
-    background: lightgrey;
-    border: 5px solid darkgray;
     height: 40vh;
     border-radius: 5px;
 `;
 
 export const FormInputContainer = styled.div`
-    padding-top: 3em;
+    margin-top: 1em;
     align-items: center;
     justify-content: center;
 `;
@@ -67,6 +71,13 @@ export const FormLabel = styled.label`
     margin: 1em;
     padding: 1em;
 `;
-export const FormInput = styled.input``;
-export const FormButton = styled.button``;
-export const Text = styled.p``;
+export const FormInput = styled.input`
+    margin: 1em;
+`;
+export const FormButton = styled.button`
+    margin: 1em;
+    padding: 0.2em;
+`;
+export const Text = styled.p`
+    margin: 1em;
+`;

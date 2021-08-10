@@ -21,24 +21,21 @@ const Services = () => {
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Reduce expenses</ServicesH2>
                     <ServicesP>
-                        We help reduce your fees and increase your overall
-                        revenue.
+                        We find ways to save you money on supplies and plants.
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Virtual Offices</ServicesH2>
+                    <ServicesH2>Virtual Meetings</ServicesH2>
                     <ServicesP>
-                        You can access our platform online anywhere in the
-                        world.
+                        Join professionals seminars on how to improve your gardening.
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesH2>Explore & Discover</ServicesH2>
                     <ServicesP>
-                        Unlock our special membership card that returns 5% cash
-                        back.
+                        Find plants that others are growing in your area.
                     </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
